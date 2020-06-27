@@ -40,7 +40,6 @@ header.masthead h1 {
   font-size: 2rem;
 }
 
-
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
@@ -49,6 +48,29 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+}
+
+.join-header {
+  text-shadow: 2px 2px #f7467b;
+}
+.join-form {
+  width: 70%;
+ margin: 5px;
+}
+
+.join-submit {
+  background-color: rgb(249, 109, 151);
+  border-color: rgb(249, 109, 151)
+}
+
+.join-submit:hover {
+  background-color: #f7467b;
+  border-color: #f7467b;
+}
+
+.join-p {
+  font-size: 20px;
+  color: #f7467b;
 }
 
 .showcase .showcase-text {
