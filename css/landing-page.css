@@ -150,6 +150,39 @@ p.about-text {
   margin-top: -190px;
 }
 
+.author {
+  background-color:rgb(14, 141, 199);
+  height: 550px;
+  font-size: larger;
+}
+
+.author-img { 
+  width: 300px;
+  height: 450px; 
+  margin-left: 60%;
+  margin-top: -380px;
+  
+}
+
+.author-text {
+  text-shadow: 8px 8px 8px rgba(0,0,0,0.2);
+  padding-top: 60px;
+  padding-left: 150px;
+  text-align: left;
+  padding-bottom: 60px;
+  margin: 0px;
+  outline: none;
+  width: auto;
+  color: white;
+}
+
+p.author-text {
+  padding-top: 0px;
+  padding-left: 150px;
+  font-size: 22px;
+ 
+}
+
 .showcase .showcase-text {
   padding: 3rem;
 }
