@@ -20,8 +20,7 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-color: rgb(234, 192, 209);
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -29,7 +28,7 @@ header.masthead {
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: rgb(234, 192, 209);
   height: 100%;
   width: 100%;
   top: 0;
@@ -43,12 +42,197 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
   }
   header.masthead h1 {
     font-size: 3rem;
   }
+}
+
+.join-header {
+  text-shadow: 2px 2px #f7467b;
+}
+.join-form {
+  width: 70%;
+ margin: 5px;
+}
+
+.join-submit {
+  background-color: rgb(249, 109, 151);
+  border-color: rgb(249, 109, 151)
+}
+
+.join-submit:hover {
+  background-color: #f7467b;
+  border-color: #f7467b;
+}
+
+.join-p {
+  font-size: 20px;
+  color: #f7467b;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://kids.weeva.com/hosted/images/17/a15c5d55a94f72a713031ac66178de/Teaser-final-lines.jpg");
+
+  /* Full height */
+  height: 670px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-text {
+  text-shadow: 8px 8px 8px rgba(0,0,0,0.2);
+  padding-top: 125px;
+  padding-left: 150px;
+  padding-bottom: 40px;
+  margin: 0px;
+  outline: none;
+  width: auto;
+  color: white;
+  font-size: larger;
+}
+
+.parallax-h1 {
+  font-weight: 700;
+  padding-top: 40px;
+}
+
+.parallax-btn {
+  background-color: #2c2d4d;
+  border-color: #2c2d4d;
+  margin-left: 30%;
+  margin-top: 10px;
+}
+
+.parallax-btn:hover{
+  background-color: #d3f28d;
+  border-color: #d3f28d;
+  color: #2c2d4d
+}
+
+.about {
+  background-color: rgb(249, 109, 151);
+  height: 550px;
+  font-size: larger;
+
+}
+
+.about-text {
+  text-shadow: 8px 8px 8px rgba(0,0,0,0.2);
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 40px;
+  margin: 0px;
+  outline: none;
+  width: auto;
+  color: white;
+
+}
+
+p.about-text {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-top: -130px;
+
+}
+
+.about-img {
+  height: 490px;
+  width: 500px;
+  margin-top: -190px;
+}
+
+.author {
+  background-color:rgb(14, 141, 199);
+  height: 550px;
+  font-size: larger;
+}
+
+.author-img { 
+  width: 300px;
+  height: 450px; 
+  margin-left: 60%;
+  margin-top: -380px;
+  
+}
+
+.author-text {
+  text-shadow: 8px 8px 8px rgba(0,0,0,0.2);
+  padding-top: 60px;
+  padding-left: 150px;
+  text-align: left;
+  padding-bottom: 60px;
+  margin: 0px;
+  outline: none;
+  width: auto;
+  color: white;
+}
+
+p.author-text {
+  padding-top: 0px;
+  padding-left: 150px;
+  font-size: 22px;
+ 
+}
+
+.standard {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.standard-reenie-beanie {
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center;
+  font-size: 40px; 
+  padding-left: 30%;
+  padding-right: 30%
+
+}
+
+.want-title {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.want-list {
+  list-style: inside;
+  font-size: larger;
+  padding-left: 20%; 
+  padding-right: 20%;
+  padding-bottom: 30px;
+}
+
+h3.want-list {
+  text-align: center;
+}
+
+.color {
+  font-size: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: #eeb422
+}
+
+.books {
+  background-color: rgb(43, 113, 157);
+  color: white; 
+}
+
+.book-list {
+  font-size: 20px;
+}
+
+.center {
+  text-align: center;
 }
 
 .showcase .showcase-text {
@@ -67,8 +251,14 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.quote {
+  font-size: 27px;
+  font-weight: lighter;
+  text-align: center;
 }
 
 .features-icons .features-icons-item {
