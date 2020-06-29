@@ -220,8 +220,19 @@ h3.want-list {
   padding-left: 15%;
   padding-right: 15%;
   color: #eeb422
+}
 
-  
+.books {
+  background-color: rgb(43, 113, 157);
+  color: white; 
+}
+
+.book-list {
+  font-size: 20px;
+}
+
+.center {
+  text-align: center;
 }
 
 .showcase .showcase-text {
