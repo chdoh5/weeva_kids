@@ -183,6 +183,47 @@ p.author-text {
  
 }
 
+.standard {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.standard-reenie-beanie {
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center;
+  font-size: 40px; 
+  padding-left: 30%;
+  padding-right: 30%
+
+}
+
+.want-title {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.want-list {
+  list-style: inside;
+  font-size: larger;
+  padding-left: 20%; 
+  padding-right: 20%;
+  padding-bottom: 30px;
+}
+
+h3.want-list {
+  text-align: center;
+}
+
+.color {
+  font-size: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: #eeb422
+
+  
+}
+
 .showcase .showcase-text {
   padding: 3rem;
 }
