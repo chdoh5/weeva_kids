@@ -40,6 +40,28 @@ header.masthead h1 {
   font-size: 2rem;
 }
 
+
+.card-deck {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px
+}
+
+.card {
+  border: none; 
+  background-color: #e9ecef
+}
+
+.card-img-top {
+  margin-top: 10px; 
+  margin-bottom: -10px;
+}
+
+.noah-img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 4rem;
@@ -71,6 +93,10 @@ header.masthead h1 {
 .join-p {
   font-size: 20px;
   color: #f7467b;
+}
+
+.btn-block {
+  margin-bottom: 15px;
 }
 
 .parallax {
@@ -148,6 +174,24 @@ p.about-text {
   height: 490px;
   width: 500px;
   margin-top: -190px;
+}
+
+.h1-accolades {
+  margin-top: -30px;
+}
+
+.award-badge {
+  margin: 50px;
+}
+
+.award-container {
+  margin-right: 30px;
+  margin-left: -35px;
+}
+
+.ir-badge {
+  height: 234px;
+  width: 300px;
 }
 
 .author {
@@ -259,6 +303,9 @@ h3.want-list {
   font-size: 27px;
   font-weight: lighter;
   text-align: center;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .features-icons .features-icons-item {
